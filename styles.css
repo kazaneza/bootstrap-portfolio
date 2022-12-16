@@ -8,15 +8,54 @@ body {
   background-size: 100%;
   font-family: "Poppins", sans-serif;
 }
+/* Header section */
 
 .container .intro {
   margin-top: 254px;
+  height: 268px;
+  width: 920px;
 }
 
-.flex {
-  display: flex;
+.intro h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.intro {
+    height: 98px; 
+    width: 920px; 
+    font-size: 20px; 
+    font-weight: 400;
 }
 
 .social-media ul li {
   margin-right: 20px;
 }
+
+/* Card Section */
+
+.card-1 {
+    margin-top: 290px;
+}
+.card-1 img{
+    height: 448px; 
+    width: 544px;
+}
+
+.card-1 .language1 li{
+    margin-right: 32px;
+}
+
+.card-1 .language2 li{
+    background: #EBEBFF;
+    border: 1px solid #EBEBFF;
+    padding: 4px;
+    color: #6070FF;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.card-1 .card-marg {
+    margin-bottom: 142px;
+}
+
